@@ -1,0 +1,40 @@
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 0 auto;
+
+  &-header {
+    color: #273469;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 76px;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 180px;
+      height: 0px;
+      left: 49.5%;
+      top: 38.2%;
+      border: 1px solid #273469;
+    }
+  }
+
+  button {
+    margin-top: 195px;
+    margin-left: auto;
+  }
+
+  .button-group {
+    display: flex;
+    right: 110px;
+    position: relative;
+
+    .btn {
+      margin-right: 10px;
+    }
+  }
+}

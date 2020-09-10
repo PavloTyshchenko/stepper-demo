@@ -1,0 +1,28 @@
+.btn {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 8px 61px 9px 61px;
+
+  &-primary {
+    color: #FFFFFF;
+    background: #F8951B;
+    border-radius: 30px;
+    transition: 0.2s;
+
+    &:hover {
+      background: #FB9448;
+    }
+  }
+
+  &-secondary {
+    color: #F8951B;
+    border: 1px solid #F8951B;
+    background: #fff;
+    border-radius: 30px;
+    transition: 0.2s;
+  }
+}
