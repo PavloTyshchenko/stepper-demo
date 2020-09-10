@@ -7,7 +7,7 @@ const HomePage = () => {
    <Container>
      <div className="page">
        <h1>Hello There</h1>
-       <a href="/RegistrationForm">Go to Form Page</a>
+       <a href="/RegistrationForm/1">Go to Form Page</a>
      </div>
    </Container>
 
