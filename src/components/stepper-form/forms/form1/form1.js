@@ -11,18 +11,16 @@ import PhoneField from '../../fields/phoneField';
 import validate from './validate';
 
 import './form1.scss';
-import StepperRoute from "../../stepperRoute";
 
 let Form1 = (props) => {
   let history = useHistory();
-  const { currentStep, setCurrentStep, submitting, setFormValues, handleSubmit } = props;
+  const { currentStep, setCurrentStep, submitting, handleSubmit } = props;
   const phoneMask = createTextMask({
     pattern: '9-9999-9999',
     guide: false
   });
 
   const onSubmit = async (values) => {
-    console.log(values)
     try {
       setCurrentStep(currentStep + 1);
       history.push(`/RegistrationForm/${currentStep + 1}`);
